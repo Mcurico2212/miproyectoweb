@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apolo Gold Company</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fefcf5;
+            color: #3d3d3d;
+        }
+
+        header {
+            background-color: #333;
+            color: #f5cf8e;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 0;
+        }
+
+        nav {
+            background-color: #f5cf8e;
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #f5cf8e, #d6a656);
+            color: #fff;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section h3 {
+            font-size: 2rem;
+            color: #d6a656;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .section p {
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 700px;
+            text-align: center;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 1px solid #f5cf8e;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .card h4 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .card p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #d6a656;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #b8901c;
+        }
+
+        footer {
+            background-color: #333;
+            color: #f5cf8e;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Apolo Gold Company</h1>
+        <p>La elegancia y el lujo a tu alcance</p>
+    </header>
+    <nav>
+        <a href="#que-es">¿Qué es?</a>
+        <a href="#ventajas">Ventajas</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="hero">
+        <h2>Redefiniendo el Brillo del Oro</h2>
+        <p>Descubre cómo el oro laminado combina lujo y accesibilidad, creando piezas que brillan con excelencia.</p>
+    </div>
+    <div class="container">
+        <div class="section" id="que-es">
+            <h3>¿Qué es el Oro Laminado?</h3>
+            <p>El oro laminado es una opción innovadora que permite disfrutar de la belleza del oro sólido sin comprometer el presupuesto. Combinando capas de oro genuino con metales base, ofrece una apariencia lujosa y una durabilidad excepcional.</p>
+        </div>
+        <div class="section" id="ventajas">
+            <h3>Ventajas del Oro Laminado</h3>
+            <div class="cards">
+                <div class="card">
+                    <h4>Durabilidad</h4>
+                    <p>Con el cuidado adecuado, el oro laminado puede mantener su brillo por años, resistiendo el desgaste cotidiano.</p>
+                </div>
+                <div class="card">
+                    <h4>Asequibilidad</h4>
+                    <p>Una alternativa accesible para disfrutar de joyas impresionantes sin gastar una fortuna.</p>
+                </div>
+                <div class="card">
+                    <h4>Estilo Versátil</h4>
+                    <p>Ideal para cualquier ocasión, desde eventos formales hasta looks diarios, siempre con un toque de elegancia.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="contacto">
+            <h3>Contáctanos</h3>
+            <p>¿Quieres saber más sobre nuestros productos? Escríbenos para obtener información personalizada.</p>
+            <div style="text-align: center; margin-top: 1rem;">
+                <a href="mailto:info@apologoldcompany.com" class="btn">Contáctanos</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Apolo Gold Company. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
